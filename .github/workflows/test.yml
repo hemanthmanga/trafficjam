@@ -1,11 +1,6 @@
 name: CI - Nightly
 
-on:
-  push:
-    branches: [ test ]
-  pull_request:
-    branches: [ test ]
-  workflow_dispatch:
+on: [push,pull_request]
 
 jobs:
   test:
