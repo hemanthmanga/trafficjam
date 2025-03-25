@@ -2,9 +2,9 @@ name: CI - Nightly
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ hemanth ]
   pull_request:
-    branches: [ develop ]
+    branches: [ hemanth ]
   workflow_dispatch:
 
 jobs:
